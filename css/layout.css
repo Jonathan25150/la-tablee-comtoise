@@ -54,7 +54,7 @@ h1 {
 
 .img-banniere {
   background-image: url(/Images/img-banniere.jpg);
-  height: 150px;
+  height: 250px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -189,15 +189,6 @@ button {
   max-width: 400px;
   display: block;
   justify-content: center;
-}
-.checkbox-group {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  white-space: nowrap;
-  width: fit-content;
-  margin: 1rem;
 }
 @media (min-width: 888px) {
   .logo {
