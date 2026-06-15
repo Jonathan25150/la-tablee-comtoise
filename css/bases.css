@@ -1,0 +1,17 @@
+body {
+  background: #b18d51;
+  color: #1a1a1a;
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a,
+a:link,
+a:visited {
+  color: #2e2e2e;
+  text-decoration: none;
+}

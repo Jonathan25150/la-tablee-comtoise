@@ -1,0 +1,266 @@
+h1 {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 24px;
+  font-weight: 600px bold;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 157px;
+  height: 76.21px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 15px, 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header-top p {
+  color: rgba(255, 255, 255, 0.712);
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 15px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links li {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 20px;
+  color: #2e2e2e;
+  font-weight: 700px bold;
+}
+
+.navbar a {
+  color: #1a1a1a;
+  background: #b18e51be;
+  border-radius: 8px;
+  padding: 10px 15px;
+  box-shadow:
+    inset 2px 2px 5px rgba(0, 0, 0, 0.2),
+    inset -2px -2px 5px rgba(255, 255, 255, 0.5);
+  transition: all 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #8b6f45;
+}
+
+.img-banniere {
+  background-image: url(/Images/img-banniere.jpg);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 15px 5px;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 15px;
+  height: auto;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 3rem;
+}
+.card {
+  border: 1px solid;
+  padding: 1rem;
+  background: #cbbfa6;
+  width: 400px;
+  height: auto;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+h3 {
+  color: #1a1a1a;
+  font-size: 15px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+.card p {
+  font-size: 8px;
+  color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10px;
+}
+.home a:nth-child(3) {
+  display: none;
+}
+footer {
+  background: #8b6f45;
+  color: white;
+  height: 44px;
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer p {
+  color: #ffff;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 8px;
+}
+.footer-left {
+  text-align: center;
+}
+.footer-right {
+  text-align: center;
+}
+.a-propos-text {
+  border: 1px solid;
+  padding: 1rem;
+  background: #cbbfa6;
+  margin: 25px;
+}
+.article-page p {
+  border: 1px solid;
+  padding: 1rem;
+  background: #cbbfa6;
+  margin: 25px;
+}
+.article-page img {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  padding: 20px;
+}
+form {
+  padding: 15px;
+}
+fieldset {
+  padding: 10px;
+}
+label[for="message"] {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: 1px;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 30px;
+}
+#message {
+  min-width: 100%;
+  max-width: 100%;
+}
+#inputname,
+#inputprenom,
+#emailinput {
+  max-width: 400px;
+  display: block;
+  justify-content: center;
+}
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  white-space: nowrap;
+  width: fit-content;
+  margin: 1rem;
+}
+@media (min-width: 888px) {
+  .logo {
+    display: block;
+    width: fit-content;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 30px;
+    font-size: 40px;
+  }
+  .header-top {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 300px);
+    gap: 40px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  .card img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
+  .card p {
+    font-size: 12px;
+  }
+  article {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  footer p {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home a:nth-child(3) {
+    display: block;
+  }
+  a {
+    font-size: 30px;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: stretch;
+  }
+  article {
+    max-width: 1800px;
+    margin: 0 auto;
+  }
+  .a-propos-text {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
